@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="./assets/streamline-icon-3-d-drawing@48x48.png" rel="icon" type = "image/png">
+
+    <title>Sorteio</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="noOpacity">
+            <header>
+               <h1>Sorteio</h1> 
+            </header> <br>
+            <main>
+                <p>Escolha um número de 1 a 200 e descubra quem é o vencedor ao apertar o botão <strong>"Sortear"</strong> !</p>
+                <div>
+                    <h1 id="numeroSort"></h1>
+                    <input type="submit" value="Sortear!" id="btnSort" onClick="sortearNumb()"> <br>
+                    <a href="index.html"><input type="submit" value="Voltar" id="btnVoltar"></a>
+                </div>
+            </main>
+        </div>
+        <div class="opacity"></div>
+    </div>
+    
+    <footer>By <a href="https://www.linkedin.com/in/milena-morais-8726a21aa/">Milena Morais</a></footer>
+
+
+    <script src="sorteio.js"></script>
+
+</body>
+</html>

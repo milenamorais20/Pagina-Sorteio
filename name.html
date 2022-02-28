@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="./assets/streamline-icon-3-d-drawing@48x48.png" rel="icon" type = "image/png">
+
+    <title>Sorteio</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="noOpacity">
+            <header>
+               <h1>Sorteio</h1> 
+            </header> <br>
+            <main>
+                <p>Digite o nome no espaço abaixo</p>
+                <div>
+                    <input type="text" placeholder="Adicione seu nome..." id="names">
+
+                    <input type="submit" value="Adicionar" id="btnAdd"> <br>
+                    <input type="submit" value="Sortear!" id="btnSort"> 
+                    <input type="submit" value="Limpar" id="btnClear"> 
+                    <a href="index.html"><input type="submit" id="btnVoltar" value="Voltar"></a>
+
+                    <div id="resultado"></div>
+                </div>
+            </main>
+        </div>
+        <div class="opacity"></div>
+    </div>
+    
+    <footer>By <a href="https://www.linkedin.com/in/milena-morais-8726a21aa/">Milena Morais</a></footer>
+
+
+    <script src="sorteio.js"></script>
+
+</body>
+</html>
+<!-- Falta: criar a tag da lista, mudar o h1 de lugar, mandar os dados pro localStorage, criar function sortearNome -->
